@@ -2,6 +2,8 @@
 
 Um projeto de calculadora simples desenvolvido com React.js e Styled Components, focado na componentização e no uso de estado (Hooks) para gerenciar a lógica das operações.
 
+![projeto](https://github.com/eumatoliveira/calculator-in-react/blob/main/Screenshot.png)
+
 ## ✨ Funcionalidades
 
 * Operações aritméticas básicas: Adição (+), Subtração (-), Multiplicação (x) e Divisão (/)
@@ -18,6 +20,8 @@ Um projeto de calculadora simples desenvolvido com React.js e Styled Components,
 ## 📂 Estrutura de Arquivos
 
 O projeto está estruturado com uma separação clara dos componentes `Button` e `Input`, cada um contendo sua própria lógica (`index.js`) e estilos (`styles.js`).
+
+![estrutura](https://github.com/eumatoliveira/calculator-in-react/blob/main/Screenshot_29.png)_
 
 ##
 
