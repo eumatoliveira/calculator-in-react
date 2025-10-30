@@ -1,3 +1,59 @@
+# 🧮 Calculadora com React
+
+Um projeto de calculadora simples desenvolvido com React.js e Styled Components, focado na componentização e no uso de estado (Hooks) para gerenciar a lógica das operações.
+
+## ✨ Funcionalidades
+
+* Operações aritméticas básicas: Adição (+), Subtração (-), Multiplicação (x) e Divisão (/)
+* Limpar o visor e a memória (AC)
+* Suporte para números decimais (.)
+* Exibição do valor atual e dos resultados
+
+## 🚀 Tecnologias Utilizadas
+
+* **[React.js](https://reactjs.org/):** Biblioteca principal para a construção da interface.
+* **[Styled Components](https://styled-components.com/):** Para estilização dos componentes (CSS-in-JS).
+* **[React Hooks](https://reactjs.org/docs/hooks-intro.html):** (`useState`) para gerenciamento do estado da aplicação.
+
+## 📂 Estrutura de Arquivos
+
+O projeto está estruturado com uma separação clara dos componentes `Button` e `Input`, cada um contendo sua própria lógica (`index.js`) e estilos (`styles.js`).
+
+##
+
+calculadora-react/ ├── src/ │ ├── components/ │ │ ├── Button/ │ │ │ ├── index.js │ │ │ └── styles.js │ │ └── input/ │ │ ├── index.js │ │ └── styles.js │ │ │ ├── App.js (Lógica principal e layout) │ ├── global.js (Estilos globais) │ └── index.js (Ponto de entrada) │ ├── package.json └── README.md
+
+
+## 📦 Como Executar o Projeto
+
+Siga os passos abaixo para rodar o projeto localmente.
+
+1.  **Clone o repositório:**
+    *(Lembre-se de alterar para a URL do seu repositório)*
+    ```bash
+    git clone [https://github.com/SEU_USUARIO/calculadora-react.git](https://github.com/SEU_USUARIO/calculadora-react.git)
+    ```
+
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd calculadora-react
+    ```
+
+3.  **Instale as dependências:**
+    (Isso instalará o React, `styled-components` e outras bibliotecas necessárias)
+    ```bash
+    npm install
+    ```
+
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm start
+    ```
+
+5.  Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver a aplicação.
+
+##
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
